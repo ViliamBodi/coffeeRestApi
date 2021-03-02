@@ -12,7 +12,7 @@
     <artifactId>coffeeRestApi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>coffeeRestApi</name>
-    <description>REST Api for Oracle coffee maker</description>
+    <description>REST Api for operating coffee makers</description>
     <properties>
         <java.version>11</java.version>
     </properties>

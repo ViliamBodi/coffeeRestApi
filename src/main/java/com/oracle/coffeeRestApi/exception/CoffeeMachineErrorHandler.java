@@ -19,7 +19,7 @@ import java.util.Arrays;
  * Error handler producing custom exceptions with some simple hints on how to operate the machine.
  */
 @ControllerAdvice
-public class CoffeeErrorHandler extends ResponseEntityExceptionHandler {
+public class CoffeeMachineErrorHandler extends ResponseEntityExceptionHandler {
 
     @ResponseBody
     @ExceptionHandler(CoffeeMachineNotFoundException.class)
