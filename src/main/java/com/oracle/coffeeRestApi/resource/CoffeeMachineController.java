@@ -22,7 +22,7 @@ public class CoffeeMachineController {
     @Autowired
     CoffeeMachineService coffeeMachineService;
 
-    @PostMapping(value = "/coffeemachines/")
+    @PostMapping(value = "/coffees/")
     CoffeeMachineResponse prepareCoffee(@RequestBody CoffeeMachineRequest coffeeRequest) {
         return coffeeMachineService.prepareCoffee(coffeeRequest);
     }

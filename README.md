@@ -5,7 +5,7 @@ This REST Api reveals endpoints to operate coffee machines. It can create an ord
 ## POST example
 ```bash
 curl -X POST \
-  http://localhost:8080/coffeemachines/ \
+  http://localhost:8080/coffees/ \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
   -H 'postman-token: ab7c372d-91e4-8544-9128-6dceddcea6c1' \
